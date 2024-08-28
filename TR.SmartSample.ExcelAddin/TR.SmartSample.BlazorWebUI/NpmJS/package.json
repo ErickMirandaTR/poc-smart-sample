@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pdftron/webviewer": "^10.11.1",
     "@saffron/core-components": "^2.15.0",
     "@saffron/core-styles": "^2.3.2",
     "css-loader": "^7.1.2",
@@ -21,6 +22,7 @@
     "style-loader": "^4.0.0"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
     "file-loader": "^6.2.0",
     "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4"

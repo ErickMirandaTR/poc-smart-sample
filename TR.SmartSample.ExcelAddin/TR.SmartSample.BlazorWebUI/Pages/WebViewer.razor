@@ -1,0 +1,12 @@
+﻿@page "/webviewer"
+@inject IJSRuntime JS
+<h3>WebViewer</h3>
+
+<div id="viewer"></div>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JS.InvokeVoidAsync("initializeWebViewer");
+    }
+}

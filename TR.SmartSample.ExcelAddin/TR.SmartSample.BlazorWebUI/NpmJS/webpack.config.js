@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     module: {
@@ -16,6 +17,13 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        new CopyPlugin({
+            patterns: [
+              { from: "./node_modules/@pdftron/webviewer/public", to: "../webviewer" },
+            ],
+        }),
+    ],
     output: {
         path: path.resolve(__dirname, '../wwwroot/js'),
         filename: "index.bundle.js"
