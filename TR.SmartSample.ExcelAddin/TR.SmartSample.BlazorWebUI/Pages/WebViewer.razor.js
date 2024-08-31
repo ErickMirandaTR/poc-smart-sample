@@ -68,7 +68,6 @@ async function loadPdfInViewer(pdfpath) {
     const viewerInstance = WebViewer.getInstance();
     const { documentViewer } = viewerInstance.Core;
     // Get intelligence from document
-    debugger;
     const intelligenceData = await getDocumentIntelligence(PDF_INTELLIGENCE.get(pdfpath));
     const fields = ["InvoiceId", "InvoiceDate", "InvoiceTotal"].map((desiredField => intelligenceData?.analyzeResult.documents[0].fields[desiredField]));
 
@@ -82,7 +81,6 @@ async function loadPdfInViewer(pdfpath) {
 }
 
 function drawPolygonArea(polygonCoords, page, viewerInstance) {
-    debugger;
     const { documentViewer, annotationManager, Annotations } = viewerInstance.Core;
     const { width, height } = documentViewer.getDocument().getPageInfo(documentViewer.getCurrentPage());
     if (polygonCoords.length % 2 !== 0) return;
