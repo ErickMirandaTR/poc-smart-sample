@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pdftron/webviewer": "^10.11.1",
+    "@pdftron/webviewer": "^10.6.0",
     "@saffron/core-components": "^2.15.0",
     "@saffron/core-styles": "^2.3.2",
     "css-loader": "^7.1.2",

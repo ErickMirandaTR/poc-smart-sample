@@ -20,7 +20,7 @@ module.exports = {
     plugins: [
         new CopyPlugin({
             patterns: [
-              { from: "./node_modules/@pdftron/webviewer/public", to: "../webviewer" },
+              { from: "./node_modules/@pdftron/webviewer/public", to: "../lib" },
             ],
         }),
     ],

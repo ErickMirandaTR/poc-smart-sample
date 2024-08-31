@@ -1,0 +1,12 @@
+[
+  {
+    "invoiceId": "INV-100",
+    "invoiceTotal": 2000,
+    "invoiceDate": "15/11/2019"
+  },
+  {
+    "invoiceId": "INV-200",
+    "invoiceTotal": 10000,
+    "invoiceDate": "15/11/2019"
+  }
+]
