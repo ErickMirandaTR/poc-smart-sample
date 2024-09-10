@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.35027.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TR.SmartSample.ExcelAddin", "TR.SmartSample.ExcelAddin\TR.SmartSample.ExcelAddin.csproj", "{14CA5A75-37AA-49FA-93F2-58C7DD94FA9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TR.SmartSample.BlazorWebUI", "TR.SmartSample.BlazorWebUI\TR.SmartSample.BlazorWebUI.csproj", "{08EED7A3-06C2-4E72-8514-BDF199E5FB8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TR.SmartSample.BlazorWebUI", "TR.SmartSample.BlazorWebUI\TR.SmartSample.BlazorWebUI.csproj", "{08EED7A3-06C2-4E72-8514-BDF199E5FB8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TR.SmartSample.Tests", "TR.SmartSample.Tests\TR.SmartSample.Tests.csproj", "{5D49C41A-C250-412D-B6C4-4DAE4DAAFD7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{08EED7A3-06C2-4E72-8514-BDF199E5FB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EED7A3-06C2-4E72-8514-BDF199E5FB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08EED7A3-06C2-4E72-8514-BDF199E5FB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D49C41A-C250-412D-B6C4-4DAE4DAAFD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D49C41A-C250-412D-B6C4-4DAE4DAAFD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D49C41A-C250-412D-B6C4-4DAE4DAAFD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D49C41A-C250-412D-B6C4-4DAE4DAAFD7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
